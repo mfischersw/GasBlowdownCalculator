@@ -10,7 +10,7 @@ setup(
     author_email='mfischer.sw@gmail.com',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
-    python_requires='>=3.8, <4',
+    python_requires='>=3.7, <4',
     project_urls={
         'Source': 'https://github.com/mfischersw/GasBlowdownCalculator/',
     }
