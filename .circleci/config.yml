@@ -52,9 +52,9 @@ workflows:
   build_publish:
     jobs:
       - build
-      #- test_pypi_publish:
-      #    requires:
-      #      - build
-      #- pypi_publish:
-      #    requires:
-      #      - build
+      - test_pypi_publish:
+          requires:
+            - build
+      - pypi_publish:
+          requires:
+            - build
