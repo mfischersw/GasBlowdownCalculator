@@ -1,10 +1,29 @@
-.. GasBlowdownCalculator documentation master file, created by
-   sphinx-quickstart on Thu Sep 29 20:50:02 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Calculation of blowdown processes from high pressure gas pipelines
+==================================================================
 
-Welcome to GasBlowdownCalculator's documentation!
-=================================================
+GasBlowdownCalculator is a package for the calculation of blowdown processes from high pressure gas pipelines.
+
+Everybody is welcome to use GasBlowdownCalculator.
+
+Audience
+--------
+
+The audience for GasBlowdownCalculator includes engineers, mathematicians, physicists, and anyone else
+who is interested in gas pipeline dynamics.
+
+License
+-------
+
+Copyright (C) 2018-2022 Michael Fischer.
+
+GasBlowdownCalculator is open source software; you can redistribute it and/or modify it under the terms of
+the :doc:`GPL-3.0 </license>`.
+
+History
+-------
+
+GasBlowdownCalculator was born in 2018. The software was designed and written by Michael Fischer.
+
 
 .. toctree::
    :maxdepth: 2
