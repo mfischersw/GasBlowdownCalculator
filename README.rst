@@ -13,7 +13,7 @@ You can find the full documentation at `readthedocs <http://gasblowdowncalculato
 License
 =======
 
-Copyright (C) 2018-2022 Michael Fischer.
+Copyright (C) 2018 Michael Fischer.
 
 GasBlowdownCalculator is open source software; you can redistribute it and/or modify it under the terms of
 the GPL-3.0 license.
