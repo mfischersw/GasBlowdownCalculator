@@ -17,3 +17,9 @@ __all__ = ['calculation',
            'gasblowdowncalculator',
            'simulation',
            ]
+
+
+def main():
+    """Entry point for the application script"""
+    print("Starting GasBlowdownCalculator from command line")
+    gasblowdowncalculator.run()

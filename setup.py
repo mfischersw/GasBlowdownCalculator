@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gasblowdowncalculator',
-    version='0.0.4',
+    version='0.0.5',
     description='GasBlowdownCalculator',
     long_description='GasBlowdownCalculator',
     author='Michael Fischer',

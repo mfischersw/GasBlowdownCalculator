@@ -22,7 +22,7 @@ copyright = '2022, Michael Fischer'
 author = 'Michael Fischer'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.4'
+release = '0.0.5'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
