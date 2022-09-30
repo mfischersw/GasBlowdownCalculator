@@ -9,5 +9,11 @@ from . import dataModelCalculation
 from . import gasblowdowncalculator
 from . import simulation
 
-__all__ = ['calculation', 'gas', 'results', 'ui',
-           'dataModelCalculation', 'gasblowdowncalculator', 'simulation', ]
+__all__ = ['calculation',
+           'gas',
+           'results',
+           'ui',
+           'dataModelCalculation',
+           'gasblowdowncalculator',
+           'simulation',
+           ]

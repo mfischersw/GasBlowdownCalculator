@@ -4,4 +4,7 @@ from . import gasData
 from . import gasComposition
 from . import gasPieChart
 
-__all__ = ['gasData', 'gasComposition', 'gasPieChart', ]
+__all__ = ['gasData',
+           'gasComposition',
+           'gasPieChart',
+           ]
