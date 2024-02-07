@@ -13,7 +13,7 @@ import sys
 from PyQt5 import QtCore, QtWidgets, QtGui
 import pyqtgraph
 
-from .calculation import acc_LibBwrCalc
+from .calculation import acc_LibGergCalc as acc_LibGasCalc
 from .gas import gasComposition
 from .results import results
 from . import ui
@@ -187,10 +187,10 @@ class GBCMainWindow(QtWidgets.QMainWindow):
         # Parameters: gas
         gascomp = {}
         for ii in self.inputModelCalc.gasComposition.keys():
-            name = acc_LibBwrCalc.gasComponentsInds[ii]
+            name = acc_LibGasCalc.gasComponentsInds[ii]
             gascomp[name] = self.inputModelCalc.gasComposition[ii]
 
-        gasprop = acc_LibBwrCalc.Gas(gascomp)
+        gasprop = acc_LibGasCalc.Gas(gascomp)
 
         # Parameters: pipe
         pipeData = {"pipeDiameter": self.inputModelCalc.pipeDiameter/1000.0,

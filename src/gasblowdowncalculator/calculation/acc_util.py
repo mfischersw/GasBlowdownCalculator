@@ -13,7 +13,7 @@ import os
 
 # Constants
 DIRNAME_SEARCH = "LibBlowdownCalc"
-DLL_NAMES = ["LibBlowdownCalc.dll", "LibBwrCalc.dll"]
+DLL_NAMES = ["LibBlowdownCalc.dll", "LibBwrCalc.dll", "LibGergCalc.dll"]
 
 
 def isLibInstalled():
